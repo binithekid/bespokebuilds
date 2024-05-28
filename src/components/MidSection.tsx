@@ -32,11 +32,11 @@ const MidSection = () => {
             <TbFireExtinguisher className="text-white text-3xl" />
           </div>
           <p className="text-2xl text-gray-800 font-medium text-center">
-            Don't Sweat On A Faulty Boiler
+            Don&apos;t Sweat On A Faulty Boiler
           </p>
           <p className="px-6 text-center text-sm text-gray-600">
-            We'll help keep you and your staff cosy (or cool) with our expert
-            boiler & heating installation and maintenance
+            We&apos;ll help keep you and your staff cosy (or cool) with our
+            expert boiler & heating installation and maintenance
           </p>
         </div>
         <div className="md:w-1/4 w-full flex items-center flex-col gap-3 pt-8">
