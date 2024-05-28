@@ -22,7 +22,9 @@ export default function Home() {
           name="description"
           content="We offer local pest control treatments for rats, mice, bed bugs, cockroaches and other insects."
         />
-        <title>London Based Pest Control Specialiists | RM Pestokill</title>
+        <title>
+          London Based Building Facilities Solution | Bespoke Builds
+        </title>
       </Head>
 
       <main className={`flex flex-col ${montserrat.className}`}>
