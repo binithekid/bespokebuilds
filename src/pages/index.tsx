@@ -11,6 +11,7 @@ import { Montserrat } from "next/font/google";
 import Head from "next/head";
 import ServiceHero from "@/components/ServiceHero";
 import NavBarNew from "@/components/NavBarNew";
+import Logo from "../../public/bespokebuildslogo.png";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -27,19 +28,25 @@ export default function Home() {
         </title>
       </Head>
 
-      <main className={`flex flex-col ${montserrat.className}`}>
-        <NavBar />
-        <NavBarNew />
-        <MobileNavBar />
-        <Hero />
-        <Badges />
-        <Testimonials />
-        <ServiceHero />
-        <MidSection />
-        {/* <ServicesSection /> */}
+      <main
+        className={`flex h-screen w-full items-center bg-black justify-center flex-col ${montserrat.className}`}
+      >
+        <div>
+          <img src={Logo.src} alt="Logo" className="-mt-40" />
+        </div>
+        <div className="flex -mt-20 items-center gap-2 justify-center flex-col">
+          <p className="text-white font-light">Services we offer:</p>
 
-        <FAQ />
-        <Footer />
+          <div className="flex text-white items-center justify-center flex-row">
+            <p>
+              Plumbing, Drainage, Electrical, Handyman, Heating, Ventilation,
+              Air Conditioning & Cleaning
+            </p>
+          </div>
+          <p className="text-white font-light mt-6">0753 5957 179</p>
+
+          <p className="text-white font-light">Website coming soon</p>
+        </div>
       </main>
     </>
   );
