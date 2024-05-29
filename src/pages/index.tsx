@@ -37,10 +37,10 @@ export default function Home() {
         <div className="flex -mt-20 items-center gap-2 justify-center flex-col">
           <p className="text-white font-light">Services we offer:</p>
 
-          <div className="flex text-white items-center justify-center flex-row">
+          <div className="flex text-white items-center px-4 justify-center flex-row">
             <p>
               Plumbing, Drainage, Electrical, Handyman, Heating, Ventilation,
-              Air Conditioning & Cleaning
+              Air Conditioning, Painting & Decorating, Building & Cleaning
             </p>
           </div>
           <p className="text-white font-light mt-6">0753 5957 179</p>
